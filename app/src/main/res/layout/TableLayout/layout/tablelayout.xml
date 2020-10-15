@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <!-- 第一行的hello Tablelayout -->
+    <TableRow
+        android:background="#A9A9A9"
+        >
+        <TextView
+            android:id="@+id/tview1"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_margin="5dp"
+            android:gravity="left|center_vertical"
+            android:text="Hello Tablelayout"
+            android:textColor="#FFFFFF" />
+    </TableRow>
+        <!-- 第二行的open的线性布局 -->
+    <TableRow>
+        <TextView
+                android:id="@+id/tview2"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:gravity="left|center_vertical"
+                android:text="   Open..."
+                android:textColor="#FFFFFF" />
+
+        <TextView
+                android:id="@+id/tview3"
+                android:layout_width="207dp"
+                android:layout_height="40dp"
+                android:gravity="right|center_vertical"
+                android:text="Ctrl-O"
+                android:textColor="#FFFFFF" />
+    </TableRow>
+        <!-- 第二行的save的线性布局 -->
+        <TableRow>
+            <TextView
+                android:id="@+id/tview4"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:gravity="left|center_vertical"
+                android:textColor="#FFFFFF"
+                android:text="   Save..."
+                />
+
+            <TextView
+                android:id="@+id/tview5"
+                android:layout_width="207dp"
+                android:layout_height="40dp"
+                android:gravity="right|center_vertical"
+                android:text="Ctrl-S"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+        <!-- 第二行的save as的线性布局 -->
+        <TableRow>
+            <TextView
+                android:id="@+id/tview6"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:gravity="left|center_vertical"
+                android:text="   Save as..."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tview7"
+                android:layout_width="207dp"
+                android:layout_height="40dp"
+                android:gravity="right|center_vertical"
+                android:text="Ctrl-S"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+    <!--分割线-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF"/>
+    <!--第三行的x两个选项-->
+    <TableRow>
+        <TextView
+            android:id="@+id/tview8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:text="X Import"
+            android:textColor="#FFFFFF" />
+    </TableRow>>
+    <TableRow>
+            <TextView
+                android:id="@+id/tview9"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:gravity="left|center_vertical"
+                android:textColor="#FFFFFF"
+                android:text="X Export"
+                />
+
+            <TextView
+                android:id="@+id/tview10"
+                android:layout_width="207dp"
+                android:layout_height="40dp"
+                android:gravity="right|center_vertical"
+                android:text="Ctrl-E"
+                android:textColor="#FFFFFF" />
+        </TableRow>>
+    <!--分割线-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF"/>
+    <!--第四行-->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:text="   Quit"
+            android:textColor="#FFFFFF" />
+    </TableRow>>
+</TableLayout>
